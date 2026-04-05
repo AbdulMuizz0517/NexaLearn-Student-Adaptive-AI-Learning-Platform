@@ -1,0 +1,15 @@
+services:
+  postgres:
+    image: postgres:16
+    container_name: nexalearn-postgres
+    environment:
+      POSTGRES_USER: nexalearn
+      POSTGRES_PASSWORD: nexalearn
+      POSTGRES_DB: nexalearn
+    ports:
+      - "5432:5432"
+    volumes:
+      - nexalearn_pgdata:/var/lib/postgresql/data
+
+volumes:
+  nexalearn_pgdata:

@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" fill="none">
+  <!-- Brain left half (blue) -->
+  <path d="M70 55 C50 55, 35 70, 35 90 C35 100, 40 108, 48 112 C42 118, 40 126, 44 134 C48 142, 56 146, 64 144 L70 140" 
+        stroke="#3B82F6" stroke-width="6" stroke-linecap="round" fill="none"/>
+  <!-- Brain right half (purple) -->
+  <path d="M100 55 C120 55, 135 70, 135 90 C135 100, 130 108, 122 112 C128 118, 130 126, 126 134 C122 142, 114 146, 106 144 L100 140" 
+        stroke="#8B5CF6" stroke-width="6" stroke-linecap="round" fill="none"/>
+  <!-- Brain center line -->
+  <path d="M85 50 L85 145" stroke="#6366F1" stroke-width="5" stroke-linecap="round"/>
+  <!-- Neural nodes -->
+  <circle cx="60" cy="80" r="5" fill="#3B82F6"/>
+  <circle cx="50" cy="100" r="5" fill="#3B82F6"/>
+  <circle cx="65" cy="110" r="4" fill="#3B82F6"/>
+  <!-- Neural connections -->
+  <path d="M60 80 L50 100 L65 110" stroke="#3B82F6" stroke-width="3" stroke-linecap="round" fill="none"/>
+  <!-- Growth arrow (green) -->
+  <path d="M70 120 L95 85 L120 95" stroke="#10B981" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  <polygon points="120,88 128,98 118,100" fill="#10B981"/>
+  <!-- Open book (green) -->
+  <path d="M55 155 L85 145 L115 155" stroke="#10B981" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  <path d="M55 155 L85 165 L115 155" stroke="#10B981" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+</svg>
